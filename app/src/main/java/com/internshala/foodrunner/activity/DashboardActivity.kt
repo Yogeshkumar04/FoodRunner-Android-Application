@@ -34,8 +34,6 @@ class DashboardActivity : AppCompatActivity(), DrawerLocker {
         else
             DrawerLayout.LOCK_MODE_LOCKED_CLOSED
 
-        drawerLayout.setDrawerLockMode(lockMode)
-        actionBarDrawerToggle.isDrawerIndicatorEnabled = enabled
     }
 
     private lateinit var toolbar: Toolbar
